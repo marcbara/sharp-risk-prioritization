@@ -1,0 +1,48 @@
+# Secrets - NEVER commit these
+.env
+secrets.txt
+*.key
+*.pem
+
+# Private review artifacts (keep local, do not publish)
+reviewers.txt
+response_to_reviewers.md
+review*.txt
+response*.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Databases (generated)
+*.db
+*.sqlite
+*.sqlite3
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Tooling temp files
+*.tmp.*
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+
+# IDE
+.vscode/
+.idea/
+.claude/
