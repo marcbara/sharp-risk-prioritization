@@ -133,10 +133,10 @@ The paper's architecture also describes dynamic reclassification, clustering, we
 
 ## Related work
 
-This implementation builds on two prior pieces, neither of which is included in this repository:
+This implementation builds on two prior pieces, both presented at the 3rd DSA International Summer Conference (University of Catania, June 2025), neither included in this repository:
 
-- **The Catania conceptual framework** ([Bara & Lostumbo, 2025](https://decisionsciencesummit.com/)) — the cross-domain transfer matrix and three-tier proposal that SHARP operationalizes. See the citation in the paper bibliography.
-- **The LLM-based risk register enhancement pipeline** (Bara, 2025, working paper) — the prior single-task pipeline whose seven-field risk schema, batch processing, and structured-output approach SHARP inherits. Used in this paper as the qualitative baseline (an LLM without triage architecture).
+- **The conceptual framework** (Bara & Lostumbo, 2025) — the cross-domain transfer matrix and three-tier proposal that SHARP operationalizes. See the citation in the paper bibliography.
+- **The LLM-based risk register enhancement pipeline** (Bara, 2025) — the prior single-task pipeline whose seven-field risk schema, batch processing, and structured-output approach SHARP inherits. Used in this paper as the qualitative workload baseline (an LLM without triage architecture).
 
 ---
 
